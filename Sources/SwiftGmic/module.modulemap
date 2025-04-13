@@ -1,0 +1,4 @@
+module GmicWrapper {
+	umbrella header "include/GMICWrapper.h"
+	export *
+}
