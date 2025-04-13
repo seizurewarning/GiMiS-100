@@ -1,4 +1,4 @@
-// swift-tools-version: 6.1
+// swift-tools-version: 6.0
 import PackageDescription
 
 let package = Package(
@@ -9,7 +9,6 @@ let package = Package(
 	products: [
 		.library(
 			name: "SwiftGmic",
-			type: .dynamic,
 			targets: ["SwiftGmic"]
 		),
 	],
